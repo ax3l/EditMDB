@@ -14,8 +14,8 @@ and I assume dotnet35sp1, too.
 
 If you did so already and result with a bunch of errors,
 try reinstalling with
-  winetricks --force mdac28
-  winetricks --force jet40
+  `winetricks --force mdac28`
+  `winetricks --force jet40`
 
 
 Usage
@@ -26,7 +26,7 @@ Line1 contains: Filename.mdb
 Line2 contains: Your SQL Update String (with ";" at the end)
 
 call
-  wine yourExeFile.exe
+  `wine yourExeFile.exe`
 
 
 Troubleshooting
